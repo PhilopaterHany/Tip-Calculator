@@ -221,6 +221,10 @@ input[type="number"],
 
 /* Media Queries For Responsive Design */
 @media (max-width: 767px) {
+    body {
+	height: unset;
+	padding-top: 40px;
+    }
     .calculator-container {
         flex-direction: column;
     }

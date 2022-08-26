@@ -11,6 +11,7 @@ The designs were created to the following widths:
 
 ### Primary
 
+-   Weak cyan: hsl(163, 61%, 77%)
 -   Strong cyan: hsl(172, 67%, 45%)
 
 ### Neutral

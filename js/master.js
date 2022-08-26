@@ -93,6 +93,7 @@ radioTips.forEach((radio) => {
     radio.addEventListener("click", () => {
         radioTips.forEach((el) => el.parentElement.classList.remove("active"));
         radio.parentElement.classList.add("active");
+	inputCustomTip.value = "";
         realtimeCalc();
     });
 });
