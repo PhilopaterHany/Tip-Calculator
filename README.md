@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Github Repository](https://github.com/PhilopaterHany/Tip-Calculator/)
+-   Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/tip-calculator-app-0q3v_mo9Ae/)
 -   Live Site URL: [Github Pages](https://philopaterhany.github.io/Tip-Calculator/)
 
 ## My process
