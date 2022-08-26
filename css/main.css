@@ -114,7 +114,7 @@ input[type="number"],
     padding: 0 25px 0 40px;
     border: 1px solid transparent;
 }
-.calculator-container .data-input div:not(.percent-boxes) .input-holder input:hover,
+.calculator-container .data-input div:not(.percent-boxes).input-holder input:hover,
 .calculator-container .data-input div:not(.percent-boxes) .input-holder input:focus,
 .calculator-container .data-input .percent-boxes .tips-holder .custom input:hover,
 .calculator-container .data-input .percent-boxes .tips-holder .custom input:focus {
@@ -144,7 +144,7 @@ input[type="number"],
     border-color: var(--red);
     box-shadow: 0 0 0 2px #ffcccc;
 }
-.calculator-container .data-input div:not(.percent-boxes) .input-holder .invalid-feedback {
+.calculator-container .data-input div:not(.percent-boxes) .input-holder  .invalid-feedback {
     position: absolute;
     top: -28px;
     right: 0;
@@ -222,8 +222,8 @@ input[type="number"],
 /* Media Queries For Responsive Design */
 @media (max-width: 767px) {
     body {
-	height: unset;
-	padding-top: 40px;
+        height: unset;
+        padding-top: 40px;
     }
     .calculator-container {
         flex-direction: column;
